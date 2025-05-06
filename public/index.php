@@ -10,6 +10,8 @@
   <div class="centered-content">
     <h1>Welcome to Project QPHP - 00_PHP</h1>
     <h3>Project: JavaScript</h3>
+    <!-- js classes -->
+    <p class='loops'>Test Block</p>
   </div>
 </body>
 
