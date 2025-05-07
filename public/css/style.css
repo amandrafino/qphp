@@ -1,12 +1,11 @@
 body {
   font-family: 'Josefin Sans', 'Roboto Condensed', sans-serif;
   margin: 0;
-  padding: 2rem;
+  padding: 1rem;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center; /* vertically center content */
-  text-align: center;
+  align-items: start; /* vertically center content */
   background-color: #f4f4f4;
   color: #333;
 }
@@ -14,6 +13,6 @@ body {
 .centered-content {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem; /* spacing between h1 and h3 */
+  gap: 0.25rem; /* spacing between h1 and h3 */
 }
 
