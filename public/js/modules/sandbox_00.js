@@ -1,6 +1,26 @@
-/* document.querySelector('.loops').textContent = 'Loops.js - Please reference the console.'; */
 
-document.querySelector('.loops').innerHTML = '<p><strong>Loops.js - Please reference the console.</strong></p>';
+document.querySelector('.sandbox_00').innerHTML = '<p><strong>sandbox_00 - Please reference the console.</strong></p>';
+
+console.log('\n=== Conditionals ===\n');
+
+const age = 20;
+
+if (age >= 18) {
+  console.log("You're an adult.");
+} else {
+  console.log("You're a minor.");
+}
+
+console.log('\n.........................\n');
+let num = Number(prompt("Pick a number: "));
+if (num < 10) {
+  console.log("The number is small!");
+} else if (num < 100) {
+  console.log("The number is mid-size!");
+} else {
+  console.log("The number is large!");
+}
+
 
 // ------------------------- /
 console.log('\n=== While LOOP ===\n');
@@ -44,4 +64,8 @@ while (count < 10) {
   hash += '#';
   count += 1;
 }
+
+
+
+
 
